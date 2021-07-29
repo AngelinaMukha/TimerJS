@@ -1,0 +1,54 @@
+* {
+    font: inherit;
+  }
+.timer {
+position: relative;
+display: inline-block;
+}
+#canvas{
+    height: 550px;
+    width: 550px;
+}
+circle{
+    fill: transparent;
+    stroke:rgb(80, 34, 153);
+    stroke-width: 10px;
+}
+body {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+      'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+#duration{
+    display: block;
+    border: none;
+    width: 240px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.timer button {
+    border: none;
+    background-color: transparent;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.timer button:focus {
+outline: none;
+}
+
+.timer input:focus {
+outline: none;
+}
+
+.controls {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
